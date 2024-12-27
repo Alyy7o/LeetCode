@@ -23,7 +23,7 @@ public class ExistanceOfSubstringAsItsReverse {
             s_fr++;
             s_sec++;
             r_fr--;
-            r_sec--;
+            r_sec--;    
         }
 
         return false;
