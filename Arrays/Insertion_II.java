@@ -1,7 +1,5 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.HashSet;
 
 public class Insertion_II {
     public static int[] intersection(int[] nums1, int[] nums2) {
