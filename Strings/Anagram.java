@@ -19,6 +19,7 @@ public class Anagram {
         String s = "racecar";
         String t = "carrace";
         System.out.println(isAnagram(s, t));
+        
     }
 
 }
