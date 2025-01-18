@@ -24,5 +24,7 @@ public class HASHMAP {
             System.out.println(key);
         }
 
+        map.pu
+
     }
 }
