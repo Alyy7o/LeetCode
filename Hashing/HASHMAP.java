@@ -15,14 +15,14 @@ public class HASHMAP {
 
         System.out.println(map.containsValue(120));
         
-        for(Map.Entry<String, Integer> val : map.entrySet()){
-            System.out.println(val.getKey() + " " + val.getValue());
-        }
+        // for(Map.Entry<String, Integer> val : map.entrySet()){
+        //     System.out.println(val.getKey() + " " + val.getValue());
+        // }
 
-        Set<String> keys = map.keySet();
-        for(String key : keys){
-            System.out.println(key);
-        }
+        // Set<String> keys = map.keySet();
+        // for(String key : keys){
+        //     System.out.println(key);
+        // }
 
     }
 }

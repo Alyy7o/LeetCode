@@ -6,12 +6,7 @@ class ProductOfThree{
         Arrays.sort(nums);
         int m2 = nums[n-1] * nums[n-2] * nums[n-3];
         int m1 = nums[0] * nums[1] * nums[n-1];
-        if(m1 > m2){
-            return m1;
-        }
-        else{
-            return m2;
-        }
+        return Math.max(m1, m2);
     }
 
     public static void main(String[] args) {
